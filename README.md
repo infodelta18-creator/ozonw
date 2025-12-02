@@ -31,17 +31,25 @@
 1.  Clone or download this repository.
 2.  Navigate to the project root.
 3.  Run the application using Docker Compose:
-*   **Backend**: FastAPI, Python, Requests (in `api/` folder)
-*   **AI Integration**: in-house Cyclops AI
-*   **Data Sources**: Open-Meteo API (AQI & Weather)
-*   **Containerization**: Docker, Docker Compose
+
+---
+
+## 🛠️ Technology Stack
+
+| Component | Technology |
+|----------|------------|
+| **Frontend** | React, Vite, Leaflet, CSS Glassmorphism |
+| **Backend** | FastAPI, Python |
+| **AI Integration** | In-house Cyclops AI |
+| **Data Sources** | Open-Meteo API (AQI & Weather) |
+| **Containerization** | Docker, Docker Compose |
 
 ---
 
 ## 📝 Notes
 
-*   **Location Access**: You must allow browser location access for the app to function.
-*   **AI Latency**: Extremely fast inference powered by in-house LPU.
+- **Location Access**: You must allow browser location access for the app to function.
+- **AI Latency**: Extremely fast inference powered by in-house LPU.
 
 ---
 
