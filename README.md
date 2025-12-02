@@ -41,7 +41,7 @@
 ## 📝 Notes
 
 *   **Location Access**: You must allow browser location access for the app to function.
-*   **AI Latency**: Extremely fast inference powered by  in-houseb LPU.
+*   **AI Latency**: Extremely fast inference powered by  in-house LPU.
 
 ---
 
@@ -49,5 +49,6 @@
   <sub>Developed with ❤️ by Alan Cyril Sunny</sub><br>
   <sub>Powered by in-house Cyclops AI model beta version 2336</sub>
 </div>
+
 
 
