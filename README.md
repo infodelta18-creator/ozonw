@@ -12,7 +12,7 @@
 - **📍 Live Geolocation**: Instantly fetches data for your exact coordinates.
 - **🌫️ Real-time AQI**: Detailed metrics for PM2.5, PM10, NO₂, and Ozone.
 - **🌤️ Weather Conditions**: Current temperature, humidity, and wind speed.
-- **🧠 AI-Powered Insights**: "Cyclops AI" (Llama 3.1 via Groq) analyzes data to give actionable health advice.
+- **🧠 AI-Powered Insights**: "Cyclops AI" analyzes data to give actionable health advice.
 - **🗺️ Interactive Map**: Visual location tracking with Leaflet.
 - **🎨 Premium UI**: Dark theme, glassmorphism effects, and "alive" animations.
 - **🐳 Fully Dockerized**: One-command deployment for both frontend and backend.
@@ -24,7 +24,7 @@
 ### Prerequisites
 
 1.  **Docker Desktop**: Ensure Docker is installed and running.
-2.  **Internet Connection**: Required for Groq API access.
+2.  **Internet Connection**: Required for API access.
 
 ### Installation & Run
 
@@ -32,7 +32,7 @@
 2.  Navigate to the project root.
 3.  Run the application using Docker Compose:
 *   **Backend**: FastAPI, Python, Requests
-*   **AI Integration**: Groq API (Llama 3.1)
+*   **AI Integration**:  in-house Cyclops AI model
 *   **Data Sources**: Open-Meteo API (AQI & Weather)
 *   **Containerization**: Docker, Docker Compose
 
@@ -41,7 +41,7 @@
 ## 📝 Notes
 
 *   **Location Access**: You must allow browser location access for the app to function.
-*   **AI Latency**: Extremely fast inference powered by Groq's LPU.
+*   **AI Latency**: Extremely fast inference powered by  in-houseb LPU.
 
 ---
 
@@ -49,3 +49,4 @@
   <sub>Developed with ❤️ by Alan Cyril Sunny</sub><br>
   <sub>Powered by in-house Cyclops AI model beta version 2336</sub>
 </div>
+
