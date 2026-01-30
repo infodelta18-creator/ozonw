@@ -240,7 +240,7 @@ function App() {
                     Developed with <span style={{ color: '#ef4444' }}></span> by Netlivy
                 </p>
                 <p className="footer-sub">
-                    Powered by Netlivy, ByteX AI model beta version
+                    Powered by Netlivy, Netlivy AI model beta version
                 </p>
             </footer>
         </>
