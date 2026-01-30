@@ -90,7 +90,7 @@ function App() {
             <nav className="navbar slide-down">
                 <div className="nav-brand">
                     <Wind size={24} className="spin-slow" />
-                    <span>Ozon</span>
+                    <span>Netlivy</span>
                 </div>
                 <button className="btn-primary pulse-hover" onClick={getLocation} disabled={loading}>
                     {loading ? <RefreshCw className="spin" size={18} /> : <MapPin size={18} />}
@@ -111,16 +111,16 @@ function App() {
                 {!data && !loading && !error && (
                     <div className="card empty-state">
                         <Wind size={64} style={{ opacity: 0.2, marginBottom: '20px' }} className="float" />
-                        <h2>Welcome to Ozon</h2>
-                        <p>Get real-time air quality, weather updates, and AI-powered health advice.</p>
-                        <p>Click "Use My Location" to start.</p>
+                        <h2>Welcome to Netlivy</h2>
+                        <p>Havo sifati, ob-havo ma'lumotlari va sun'iy intellektga asoslangan sog'liqni saqlash bo'yicha real vaqt rejimida maslahatlar oling</p>
+                        <p>Click "Use My Location" boshlash uchun.</p>
                     </div>
                 )}
 
                 {loading && !data && (
                     <div className="card empty-state">
                         <div className="loading-spinner"></div>
-                        <p>Analyzing local atmosphere...</p>
+                        <p>Atmosfera maʼlumot i yuklanmoqda...</p>
                     </div>
                 )}
 
@@ -130,7 +130,7 @@ function App() {
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
                             <div className="card aqi-section">
                                 <div className="location-header" style={{ width: '100%' }}>
-                                    <span className="location-title">Current Air Quality</span>
+                                    <span className="location-title">Joriy havo sifati</span>
                                     <Info size={20} color="#9ca3af" />
                                 </div>
 
@@ -146,20 +146,20 @@ function App() {
 
                             <div className="card weather-section">
                                 <h3 style={{ marginTop: 0, marginBottom: '15px', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                                    <Thermometer size={20} /> Weather Conditions
+                                    <Thermometer size={20} /> Ob-havo sharoitlari
                                 </h3>
                                 <div className="weather-grid">
                                     <div className="weather-item">
                                         <span className="weather-value">{data.weather_data.temperature_2m}°C</span>
-                                        <span className="weather-label">Temperature</span>
+                                        <span className="weather-label">Harorat</span>
                                     </div>
                                     <div className="weather-item">
                                         <span className="weather-value">{data.weather_data.relative_humidity_2m}%</span>
-                                        <span className="weather-label">Humidity</span>
+                                        <span className="weather-label">Namlik</span>
                                     </div>
                                     <div className="weather-item">
                                         <span className="weather-value">{data.weather_data.wind_speed_10m} <span style={{ fontSize: '0.8rem' }}>km/h</span></span>
-                                        <span className="weather-label">Wind</span>
+                                        <span className="weather-label">Shamol</span>
                                     </div>
                                 </div>
                             </div>
@@ -174,7 +174,7 @@ function App() {
                                     <ChangeView center={coords} zoom={13} />
                                     <TileLayer
                                         url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
-                                        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+                                        attribution='&copy; <a href="">Netlivy Openstreetmap</a> contributors &copy; <a href="https://instagram.com/car1movvvvv">instagram</a>'
                                     />
                                     <Marker position={coords}>
                                         <Popup>
@@ -186,7 +186,7 @@ function App() {
 
                             <div className="card">
                                 <h3 style={{ marginTop: 0, marginBottom: '15px', borderBottom: '1px solid #e5e7eb', paddingBottom: '10px' }}>
-                                    Pollutant Details
+                                    Ifloslantiruvchi moddalar tafsilotlari
                                 </h3>
                                 <div className="pollutants-grid">
                                     <div className="pollutant-card">
@@ -215,7 +215,7 @@ function App() {
                             <div className="card analysis-section">
                                 <div className="analysis-header">
                                     <Activity size={24} className="pulse" />
-                                    <span>Ozon AI Insights</span>
+                                    <span>Netlivy AI maslahati</span>
                                 </div>
                                 <div className="analysis-list">
                                     {data.analysis.split('\n').map((line, index) => {
@@ -237,10 +237,10 @@ function App() {
 
             <footer className="footer fade-in" style={{ animationDelay: '1s' }}>
                 <p>
-                    Developed with <span style={{ color: '#ef4444' }}>❤</span> by Alan Cyril Sunny
+                    Developed with <span style={{ color: '#ef4444' }}></span> by Netlivy
                 </p>
                 <p className="footer-sub">
-                    Powered by in-house Cyclops AI model beta version 2336
+                    Powered by Netlivy, ByteX AI model beta version
                 </p>
             </footer>
         </>
