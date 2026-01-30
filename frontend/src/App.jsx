@@ -113,14 +113,14 @@ function App() {
                         <Wind size={64} style={{ opacity: 0.2, marginBottom: '20px' }} className="float" />
                         <h2>Welcome to Netlivy</h2>
                         <p>Havo sifati, ob-havo ma'lumotlari va sun'iy intellektga asoslangan sog'liqni saqlash bo'yicha real vaqt rejimida maslahatlar oling</p>
-                        <p>Click "Use My Location" boshlash uchun.</p>
+                        <p>"Use My Location" boshlash uchun.</p>
                     </div>
                 )}
 
                 {loading && !data && (
                     <div className="card empty-state">
                         <div className="loading-spinner"></div>
-                        <p>Atmosfera maʼlumot i yuklanmoqda...</p>
+                        <p>Atmosfera maʼlumoti yuklanmoqda...</p>
                     </div>
                 )}
 
@@ -158,7 +158,7 @@ function App() {
                                         <span className="weather-label">Namlik</span>
                                     </div>
                                     <div className="weather-item">
-                                        <span className="weather-value">{data.weather_data.wind_speed_10m} <span style={{ fontSize: '0.8rem' }}>km/h</span></span>
+                                        <span className="weather-value">{data.weather_data.wind_speed_10m} <span style={{ fontSize: '0.7rem' }}>km/h</span></span>
                                         <span className="weather-label">Shamol</span>
                                     </div>
                                 </div>
