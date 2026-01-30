@@ -158,7 +158,7 @@ function App() {
                                         <span className="weather-label">Namlik</span>
                                     </div>
                                     <div className="weather-item">
-                                        <span  className="weather-value">{data.weather_data.wind_speed_10m} <span style={{ fontSize: '0.65rem' }}>km/h</span></span>
+                                        <span  className="weather-value">{data.weather_data.wind_speed_10m} <span style={{ fontSize: '0.8rem' }}>km/h</span></span>
                                         <span className="weather-label">Shamol</span>
                                     </div>
                                 </div>
