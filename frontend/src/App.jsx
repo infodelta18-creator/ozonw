@@ -90,7 +90,7 @@ function App() {
             <nav className="navbar slide-down">
                 <div className="nav-brand">
                     <Wind size={24} className="spin-slow" />
-                    <span>Netlivy</span>
+                    <span>Ozon Netlivy</span>
                 </div>
                 <button className="btn-primary pulse-hover" onClick={getLocation} disabled={loading}>
                     {loading ? <RefreshCw className="spin" size={18} /> : <MapPin size={18} />}
@@ -214,7 +214,7 @@ function App() {
 
                             <div className="card analysis-section">
                                 <div className="analysis-header">
-                                    <Activity size={24} className="pulse" />
+                                    <Activity size={24} className="" />
                                     <span>Netlivy AI maslahati</span>
                                 </div>
                                 <div className="analysis-list">
