@@ -55,7 +55,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  background: linear-gradient(to right, #60a5fa, #34d399);
+  background: linear-gradient(to right, #60a5fa, #fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
