@@ -34,7 +34,7 @@ function App() {
         setError(null);
 
         if (!navigator.geolocation) {
-            setError('Geolocation is not supported by your browser');
+            setError('Bu brauzeringiz qo'llab quvvatlanmadi,iltimos boshqa brauzerdan foydalaning');
             setLoading(false);
             return;
         }
@@ -46,7 +46,7 @@ function App() {
                 fetchData(latitude, longitude);
             },
             (err) => {
-                setError('Unable to retrieve your location');
+                setError('Brauzeringiz qo'llab quvvatlanmaydi,iltimos boshqa brauzerdan foydalaning');
                 setLoading(false);
             }
         );
